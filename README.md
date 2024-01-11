@@ -10,6 +10,8 @@ If you want to edit something in this mode, dont forget to change path in csproj
 
 Here you need to change HintPath to your's file source with Assembly-CSharp.dll
 
+The same things you need to do witch all strings, that seems like `E:\Games\Steam\...`
+
 
 ## Link on sources
 
