@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <AssemblyName>LethalCompanyTemplate</AssemblyName>
-        <Description>A template for Lethal Company</Description>
+        <AssemblyName>ExtendedFlashlightRange</AssemblyName>
+        <Description>The mod for the game flew a company that increases the radius of the lamps (works on the yellow and green lantern).</Description>
         <Version>1.0.0</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
