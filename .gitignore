@@ -77,3 +77,6 @@ ExtendedFlashlightRange/obj
 # Ignore bin
 ExtendedFlashlightRange/bin
 
+# Ignore decompiled Sources
+/decompiled_src
+

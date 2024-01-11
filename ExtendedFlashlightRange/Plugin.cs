@@ -1,6 +1,7 @@
 ﻿using System;
 using BepInEx;
 using BepInEx.Logging;
+using ExtendedFlashlightRange.Patches;
 using HarmonyLib;
 using MonoMod.ModInterop;
 
@@ -45,10 +46,25 @@ namespace ExtendedFlashlightRange
             log_journal = BepInEx.Logging.Logger.CreateLogSource(modGUID);
             
             /* String of mod Initiated (Modname and its version) */
-            log_journal.LogInfo($"{modName} initiated: v{modName}");
-            
-            /* Patch all with type of current class */
-            harmony.PatchAll(typeof(ExtendedFlashlightRangeModBase));
+            log_journal.LogInfo($"{modName} initiate started: v{modVersion}");
+
+            /* Using try for patching game */
+            try
+            {
+                /* Patch all with type of current class */
+                harmony.PatchAll(typeof(ExtendedFlashlightRangeModBase));
+
+                /* Patch all with type of FlashLightPatch class */
+                harmony.PatchAll(typeof(FlashlightPatch));
+                
+                /* String of mod Initiated (Modname and its version) */
+                log_journal.LogInfo($"{modName} harmony patch successfull");
+            } 
+            catch
+            {
+                /* String that says - something went wrong with harmony patching */
+                log_journal.LogError($"{modName}: Error while harmony patching");
+            }
         }
     }
 }
