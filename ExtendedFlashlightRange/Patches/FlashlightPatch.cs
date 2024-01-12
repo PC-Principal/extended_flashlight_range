@@ -11,22 +11,17 @@ namespace ExtendedFlashlightRange.Patches
     internal class FlashlightPatch
     {
         /* We should add changes after method in class FlashLightItem that named is Update() with PostFix
-         * Need to use ___variable if you need to overwrite variables from parent class or __variable if instance class
-         *
-         * todo: We need to work Here with light
+         * Need to use ___variable if you need to overwrite variables from parent class or __variable if need to use class
          */
         [HarmonyPatch("Update")]
         [HarmonyPostfix]
         private static void patchIntensityUpdate(ref FlashlightItem __instance)
         {
-            /* Always 0 - flashlightInterferenceLevel */
-            __instance.flashlightInterferenceLevel = 0;
+            /* Set more powerfull flashlight Intensity */
+            __instance.flashlightBulb.intensity = 2000f;
             
-            /* Perfect intensity always */
-            __instance.flashlightBulb.intensity = 600f;
-            
-            /** Extend flashlight Range (Work thing) */
-            __instance.flashlightBulb.range = __instance.flashlightBulb.range * 20;
+            /* Set large radius for flashlightBulb */
+            __instance.flashlightBulb.range = 400f;
         }
     }
 }

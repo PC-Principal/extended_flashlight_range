@@ -1,9 +1,7 @@
-﻿using System;
-using BepInEx;
+﻿using BepInEx;
 using BepInEx.Logging;
 using ExtendedFlashlightRange.Patches;
 using HarmonyLib;
-using MonoMod.ModInterop;
 
 /* Mod namespace */
 namespace ExtendedFlashlightRange
