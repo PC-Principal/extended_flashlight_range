@@ -24,6 +24,9 @@ namespace ExtendedFlashlightRange.Patches
             
             /* Perfect intensity always */
             __instance.flashlightBulb.intensity = 600f;
+            
+            /** Extend flashlight Range (Work thing) */
+            __instance.flashlightBulb.range = __instance.flashlightBulb.range * 20;
         }
     }
 }
