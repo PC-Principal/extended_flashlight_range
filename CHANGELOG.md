@@ -6,3 +6,6 @@
 
 # v.1.0.1
 - added mod to Thunderstore
+- 
+# v.1.0.2
+- fixed readme on thunderstore
