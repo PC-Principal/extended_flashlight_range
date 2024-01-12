@@ -11,4 +11,4 @@
 - fixed readme on thunderstore
 
 # v.1.0.3
-- changed on thunderstore
+- changed description on thunderstore
