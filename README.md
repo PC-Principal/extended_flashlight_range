@@ -4,13 +4,11 @@ The mod for the game flew a company that increases the radius and range of the f
 
 ## Examples
 
-**Flashlight before:**
-![Flashlight_before_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/before_patch.png)
-![Pro Flashlight_before_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/before_patch_pro.png)
+**Flashlights before:**
+![Flashlight_before_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/before_patch.png) | ![Pro Flashlight_before_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/before_patch_pro.png)
 
-**Flashlight after:**
-![Flashlight_after_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/patched.png)
-![Pro Flashlight_after_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/patched_pro.png)
+**Flashlights after:**
+![Flashlight_after_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/patched.png) | ![Pro Flashlight_after_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/patched_pro.png)
 
 ## About Edit
 
