@@ -12,3 +12,6 @@
 
 # v.1.0.3
 - changed description on thunderstore
+
+# v.1.0.4
+- added BepInEx Dependency
