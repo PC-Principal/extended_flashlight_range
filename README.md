@@ -2,6 +2,8 @@
 
 The mod for the game flew a company that increases the radius and range of the flashlights (works on the yellow and green flashlits).
 
+**Link on ThunderStore**: https://thunderstore.io/c/lethal-company/p/V_Power/FlashlightExtendedRange/
+
 ## Examples
 
 **Flashlights before:**
