@@ -34,3 +34,13 @@ If you are working with IDE Rider - after build you can find your mod dll file i
 ## Template repository
 
 If you want create your mod, you can use this template for creating https://github.com/PC-Principal/LethalCompanyModesTemplate - that exists usefill links for moding in Lethal Company
+
+## contributors
+
+Thank you to all of our awesome contributors! ❤️
+
+<a href="https://github.com/PC-Principal/extended_flashlight_range/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PC-Principal/extended_flashlight_range" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
