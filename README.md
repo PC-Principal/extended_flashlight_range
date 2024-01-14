@@ -35,7 +35,7 @@ If you are working with IDE Rider - after build you can find your mod dll file i
 
 If you want create your mod, you can use this template for creating https://github.com/PC-Principal/LethalCompanyModesTemplate - that exists usefill links for moding in Lethal Company
 
-## contributors
+## Contributors
 
 Thank you to all of our awesome contributors! ❤️
 
