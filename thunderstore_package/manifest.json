@@ -1,0 +1,9 @@
+{
+    "name": "FlashlightExtendedRange",
+    "version_number": "1.0.4",
+    "website_url": "https://github.com/PC-Principal/extended_flashlight_range",
+    "description": "The mod that increases the radius and range of the flashlights (works on the yellow and green flashlits).",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	]
+}
