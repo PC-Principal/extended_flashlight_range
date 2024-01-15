@@ -15,3 +15,6 @@
 
 # v.1.0.4
 - added BepInEx Dependency
+
+# v.1.0.5
+- same version in all repo's
