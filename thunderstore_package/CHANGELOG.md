@@ -1,5 +1,8 @@
 # Whats changed
 
+# v.1.0.7
+- Sync version in package and repo
+
 # v.1.0.6
 - Added a block in README on how you can say thanks :3
 - Changed the order of versions in CHANGELOG so that newer versions are shown at the top
