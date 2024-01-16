@@ -1,5 +1,7 @@
 # Extended flashlight range mod
 
+![Stable Version](https://img.shields.io/badge/version-v1.0.6-brightgreen)
+
 The mod for the game Lethal Company that increases the radius and range of the flashlights (works on the yellow and green flashlits).
 
 **Link on ThunderStore**: https://thunderstore.io/c/lethal-company/p/V_Power/FlashlightExtendedRange/
@@ -24,7 +26,6 @@ Here you need to change HintPath to your's file source with Assembly-CSharp.dll
 
 The same things you need to do witch all strings, that seems like `E:\Games\Steam\...`
 
-
 ## Link on sources
 
 If you are working with IDE Rider - after build you can find your mod dll file in directory: 
@@ -33,7 +34,11 @@ If you are working with IDE Rider - after build you can find your mod dll file i
 
 ## Template repository
 
-If you want create your mod, you can use this template for creating https://github.com/PC-Principal/LethalCompanyModesTemplate - that exists usefill links for moding in Lethal Company
+If you want create your mod, you can use this [template for creating](https://github.com/PC-Principal/LethalCompanyModesTemplate) - that exists usefill links for moding in Lethal Company.
+
+## How to say thanks
+
+If you like [this mod on thunderstore](https://thunderstore.io/c/lethal-company/p/V_Power/FlashlightExtendedRange/) or **star current repository (recommended)** - This way I can see feedback and get motivated to find what I can improve in the game.
 
 ## Contributors
 
