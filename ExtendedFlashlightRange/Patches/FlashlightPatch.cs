@@ -21,7 +21,7 @@ namespace ExtendedFlashlightRange.Patches
             __instance.flashlightBulb.intensity = 2000f;
             
             /* Set large radius for flashlightBulb */
-            __instance.flashlightBulb.range = 400f;
+            __instance.flashlightBulb.range = 500f;
         }
     }
 }

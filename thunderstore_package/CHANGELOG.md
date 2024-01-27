@@ -1,5 +1,9 @@
 # Whats changed
 
+# v.1.0.8
+- Changed light circle radius just a little to bigger value
+- Add version labels to READme
+
 # v.1.0.7
 - Sync version in package and repo
 
@@ -23,5 +27,5 @@
 - added mod to Thunderstore
 
 # v.1.0.0
-- flashlights bulb intensity was set to a higher value;
-- flashlights bulb range was set to a higher value;
+- flashlights bulb intensity was set to a higher value
+- flashlights bulb range was set to a higher value
