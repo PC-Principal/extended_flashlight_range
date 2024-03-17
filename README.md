@@ -18,7 +18,7 @@ The mod for the game Lethal Company that increases the radius and range of the f
 
 **Patched Helmet:**
 ![Flashlight_helmet_after_patch](https://raw.githubusercontent.com/PC-Principal/extended_flashlight_range/master/images/updated_helmet.jpg)
-![Pro Flashlight_helmet_after_patch](https://raw.githubusercontent.com/PC-Principal/extended_flashlight_range/master/images/updated_helmet_pro.png)
+![Pro Flashlight_helmet_after_patch](https://raw.githubusercontent.com/PC-Principal/extended_flashlight_range/master/images/updated_helmet_pro.jpg)
 
 ## About Edit
 
