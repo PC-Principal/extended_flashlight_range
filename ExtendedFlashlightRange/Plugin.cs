@@ -19,7 +19,7 @@ namespace ExtendedFlashlightRange
         private const string modName = "Extended Flashlight Range Mod";
 
         /* mod version */
-        private const string modVersion = "1.0.9";
+        private const string modVersion = "1.1.0";
 
         /** readonly variable with harmony lib for mod */
         private readonly Harmony harmony = new Harmony(modGUID);

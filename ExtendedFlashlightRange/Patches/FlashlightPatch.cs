@@ -37,10 +37,10 @@ namespace ExtendedFlashlightRange.Patches
         private static void patchIntensityUpdate(ref PlayerControllerB __instance)
         {
             /* Set more powerfull flashlight Intensity */
-            __instance.helmetLight.intensity = 2000f;
+            __instance.helmetLight.intensity = 2500f;
             
             /* Set large radius for flashlightBulb */
-            __instance.helmetLight.range = 500f;
+            __instance.helmetLight.range = 800f;
         }
     }
 }

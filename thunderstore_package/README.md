@@ -1,6 +1,6 @@
 # Extended flashlight range mod
 
-![Stable Version](https://img.shields.io/badge/version-v1.0.9-brightgreen)
+![Stable Version](https://img.shields.io/badge/version-v1.1.0-brightgreen)
 
 The mod for the game flew a company that increases the radius and range of the flashlights (works on the yellow and green flashlits).
 

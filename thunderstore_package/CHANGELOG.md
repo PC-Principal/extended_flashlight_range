@@ -1,5 +1,8 @@
 # Whats changed
 
+# v.1.1.0
+- Set upper values for power of Helmet Light - because this use another values on start
+
 # v.1.0.9
 - Added compatibility with other mods (Finally extends HelmetLight too)
 
