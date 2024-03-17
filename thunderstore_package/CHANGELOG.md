@@ -1,5 +1,8 @@
 # Whats changed
 
+# v.1.0.9
+- Added compatibility with other mods (Finally extends HelmetLight too)
+
 # v.1.0.8
 - Changed light circle radius just a little to bigger value (+100f)
 - Add version labels to READme

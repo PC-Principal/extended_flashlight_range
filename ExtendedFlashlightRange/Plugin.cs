@@ -19,7 +19,7 @@ namespace ExtendedFlashlightRange
         private const string modName = "Extended Flashlight Range Mod";
 
         /* mod version */
-        private const string modVersion = "1.0.8";
+        private const string modVersion = "1.0.9";
 
         /** readonly variable with harmony lib for mod */
         private readonly Harmony harmony = new Harmony(modGUID);
@@ -54,6 +54,9 @@ namespace ExtendedFlashlightRange
 
                 /* Patch all with type of FlashLightPatch class */
                 harmony.PatchAll(typeof(FlashlightPatch));
+                
+                /* Patch all with type of PlayerControllerBPatch class (Here patching helmet light) */
+                harmony.PatchAll(typeof(PlayerControllerBPatch));
                 
                 /* String of mod Initiated (Modname and its version) */
                 log_journal.LogInfo($"{modName} harmony patch successfull");

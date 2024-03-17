@@ -24,4 +24,23 @@ namespace ExtendedFlashlightRange.Patches
             __instance.flashlightBulb.range = 500f;
         }
     }
+    
+    /* Class with PlayerControllerB patch (We patch Helmet Light) */
+    [HarmonyPatch(typeof(PlayerControllerB))]
+    internal class PlayerControllerBPatch
+    {
+        /* We should add changes after method in class PlayerControllerB that named is Update() with PostFix
+         * Need to use ___variable if you need to overwrite variables from parent class or __variable if need to use class
+         */
+        [HarmonyPatch("Update")]
+        [HarmonyPostfix]
+        private static void patchIntensityUpdate(ref PlayerControllerB __instance)
+        {
+            /* Set more powerfull flashlight Intensity */
+            __instance.helmetLight.intensity = 2000f;
+            
+            /* Set large radius for flashlightBulb */
+            __instance.helmetLight.range = 500f;
+        }
+    }
 }

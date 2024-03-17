@@ -1,6 +1,6 @@
 # Extended flashlight range mod
 
-![Stable Version](https://img.shields.io/badge/version-v1.0.8-brightgreen)
+![Stable Version](https://img.shields.io/badge/version-v1.0.9-brightgreen)
 
 The mod for the game Lethal Company that increases the radius and range of the flashlights (works on the yellow and green flashlits).
 
@@ -15,6 +15,10 @@ The mod for the game Lethal Company that increases the radius and range of the f
 **Flashlights after:**
 ![Flashlight_after_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/patched.png)
 ![Pro Flashlight_after_patch](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/patched_pro.png)
+
+**Patched Helmet:**
+![Flashlight_helmet_after_patch](https://raw.githubusercontent.com/PC-Principal/extended_flashlight_range/master/images/updated_helmet.jpg)
+![Pro Flashlight_helmet_after_patch](https://raw.githubusercontent.com/PC-Principal/extended_flashlight_range/master/images/updated_helmet_pro.png)
 
 ## About Edit
 
