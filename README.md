@@ -1,6 +1,6 @@
 # Extended flashlight range mod
 
-![Stable Version](https://img.shields.io/badge/version-v1.1.0-brightgreen)
+![Stable Version](https://img.shields.io/badge/version-v1.1.1-brightgreen)
 
 The mod for the game Lethal Company that increases the radius and range of the flashlights (works on the yellow and green flashlits).
 
