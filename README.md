@@ -1,6 +1,8 @@
-# Extended flashlight range mod
+Extended flashlight range mod
+============
 
 ![Stable Version](https://img.shields.io/badge/version-v1.1.2-brightgreen)
+[![Thunderstore Downloads](https://img.shields.io/thunderstore/dt/V_Power/FlashlightExtendedRange?style=flat&logo=thunderstore&logoColor=white&label=thunderstore)](https://thunderstore.io/c/lethal-company/p/LethalCompanyModding/FlashlightExtendedRange/)
 
 The mod for the game Lethal Company that increases the radius and range of the flashlights (works on the yellow and green flashlits).
 
