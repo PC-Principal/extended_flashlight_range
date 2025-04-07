@@ -1,5 +1,8 @@
 # Whats changed
 
+# v1.1.2
+- See previous version, here update link on new image in description
+
 # v.1.1.1
 - THE TIME HAS COME! As you have long asked me, I have added support for changing brightness and range via the LetalConfig mod. I will be glad to get a star on GitHub and feedback on bugs!
 - Now you can change range or/and intensity of helmet and flashlights through LethalConfig without restart

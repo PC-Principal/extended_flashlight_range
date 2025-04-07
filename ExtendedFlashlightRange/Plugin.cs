@@ -25,7 +25,7 @@ namespace ExtendedFlashlightRange
         private const string modName = "Extended Flashlight Range Mod";
 
         /* mod version */
-        private const string modVersion = "1.1.1";
+        private const string modVersion = "1.1.2";
 
         /** readonly variable with harmony lib for mod */
         private readonly Harmony harmony = new Harmony(modGUID);
@@ -138,7 +138,7 @@ namespace ExtendedFlashlightRange
                 }
             ));
 
-            // Устанавливаем иконку и описание мода
+            // Set Icon and Mod Name
             LethalConfigManager.SetModDescription("Configurable helmet and flashlights range and intensity - as you asked, for the Company! Pls star it on githab repo :3");
             var modIcon = ModInfo.GetModIcon();
             if (modIcon != null)
@@ -165,11 +165,11 @@ namespace ExtendedFlashlightRange
                 byte[] bytes = new byte[stream.Length];
                 stream.Read(bytes, 0, bytes.Length);
 
-                // Создаем текстуру
+                // Create Texture
                 var texture = new Texture2D(2, 2);
                 texture.LoadImage(bytes);
 
-                // Создаем спрайт
+                // Create Sprite
                 return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
             }
         }
