@@ -2,6 +2,7 @@
 using HarmonyLib;
 using GameNetcodeStuff;
 using UnityEngine;
+using ExtendedFlashlightRange;
 
 /** Namespace with flashlight patch class */
 namespace ExtendedFlashlightRange.Patches
@@ -10,18 +11,19 @@ namespace ExtendedFlashlightRange.Patches
     [HarmonyPatch(typeof(FlashlightItem))]
     internal class FlashlightPatch
     {
-        /* We should add changes after method in class FlashLightItem that named is Update() with PostFix
-         * Need to use ___variable if you need to overwrite variables from parent class or __variable if need to use class
-         */
+        /* We patch Update method to constantly update flashlight settings */
         [HarmonyPatch("Update")]
         [HarmonyPostfix]
         private static void patchIntensityUpdate(ref FlashlightItem __instance)
         {
-            /* Set more powerfull flashlight Intensity */
-            __instance.flashlightBulb.intensity = 2000f;
-            
-            /* Set large radius for flashlightBulb */
-            __instance.flashlightBulb.range = 500f;
+            if (__instance.flashlightBulb != null)
+            {
+                /* Set flashlight Intensity from config */
+                __instance.flashlightBulb.intensity = ExtendedFlashlightRangeModBase.FlashlightIntensity.Value;
+                
+                /* Set flashlight range from config */
+                __instance.flashlightBulb.range = ExtendedFlashlightRangeModBase.FlashlightRange.Value;
+            }
         }
     }
     
@@ -29,18 +31,19 @@ namespace ExtendedFlashlightRange.Patches
     [HarmonyPatch(typeof(PlayerControllerB))]
     internal class PlayerControllerBPatch
     {
-        /* We should add changes after method in class PlayerControllerB that named is Update() with PostFix
-         * Need to use ___variable if you need to overwrite variables from parent class or __variable if need to use class
-         */
+        /* We patch Update method to constantly update helmet light settings */
         [HarmonyPatch("Update")]
         [HarmonyPostfix]
         private static void patchIntensityUpdate(ref PlayerControllerB __instance)
         {
-            /* Set more powerfull flashlight Intensity */
-            __instance.helmetLight.intensity = 2500f;
-            
-            /* Set large radius for flashlightBulb */
-            __instance.helmetLight.range = 800f;
+            if (__instance.helmetLight != null)
+            {
+                /* Set helmet light Intensity from config */
+                __instance.helmetLight.intensity = ExtendedFlashlightRangeModBase.HelmetIntensity.Value;
+                
+                /* Set helmet light range from config */
+                __instance.helmetLight.range = ExtendedFlashlightRangeModBase.HelmetRange.Value;
+            }
         }
     }
 }

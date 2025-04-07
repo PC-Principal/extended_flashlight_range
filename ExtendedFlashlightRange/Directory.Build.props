@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <PropertyGroup>
+        <LethalCompanyPath>E:\Games\Steam\steamapps\common\Lethal Company</LethalCompanyPath>
+        <BepInExPath>C:\Users\basil\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\LocalModTests\BepInEx</BepInExPath>
+        <LethalConfigPath>C:\Users\basil\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\LocalModTests\BepInEx\plugins\AinaVT-LethalConfig\LethalConfig.dll</LethalConfigPath>
+    </PropertyGroup>
+</Project>

@@ -1,9 +1,10 @@
 {
     "name": "FlashlightExtendedRange",
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/PC-Principal/extended_flashlight_range",
-    "description": "The mod that increases the radius and range of the flashlights (works on the yellow and green flashlits), extends helmet light too.",
+    "description": "The mod that increases the radius and range of the flashlights (works on the yellow and green flashlights), extends helmet light and LethalConfig",
 	"dependencies": [
-		"BepInEx-BepInExPack-5.4.2100"
+		"BepInEx-BepInExPack-5.4.2100",
+		"AinaVT-LethalConfig-1.4.6"
 	]
 }

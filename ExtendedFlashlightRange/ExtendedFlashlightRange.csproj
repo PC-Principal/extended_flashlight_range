@@ -14,8 +14,26 @@
         <PackageReference Include="BepInEx.Core" Version="5.*" />
         <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*"/>
         <PackageReference Include="UnityEngine.Modules" Version="2022.3.9" IncludeAssets="compile" />
-        <Reference Include="Assembly-CSharp" HintPath="E:\Games\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Assembly-CSharp.dll" Publicize="true" />
-        <Reference Include="Unity.Netcode.Runtime" HintPath="E:\Games\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.Netcode.Runtime.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(LethalCompanyPath)\Lethal Company_Data\Managed\Assembly-CSharp.dll</HintPath>
+            <Publicize>true</Publicize>
+        </Reference>
+        <Reference Include="Unity.Netcode.Runtime">
+            <HintPath>$(LethalCompanyPath)\Lethal Company_Data\Managed\Unity.Netcode.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="LethalConfig">
+            <HintPath>libs\LethalConfig.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="..\thunderstore_package\icon.png">
+            <LogicalName>ExtendedFlashlightRange.thunderstore_package.icon.png</LogicalName>
+        </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">

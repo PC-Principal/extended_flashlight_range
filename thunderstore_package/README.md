@@ -2,9 +2,12 @@
 
 ![Stable Version](https://img.shields.io/badge/version-v1.1.0-brightgreen)
 
-The mod for the game flew a company that increases the radius and range of the flashlights (works on the yellow and green flashlits).
+The mod for the game flew a company that increases the radius and range of the flashlights (works on the yellow and green flashlights). Supports helmet light and LethalConfig.
 
 ## Examples
+
+**NOW SUPPORTS - LethalConfig for Flashlights and Helmet**
+![ConfigurableLethalConfig](https://github.com/PC-Principal/extended_flashlight_range/blob/master/images/configurable.jpg)
 
 **Flashlights before:**
 ![Flashlight_before_patch](https://raw.githubusercontent.com/PC-Principal/extended_flashlight_range/master/images/before_patch.png)
