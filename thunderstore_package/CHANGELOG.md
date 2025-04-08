@@ -1,5 +1,8 @@
 # Whats changed
 
+# v1.1.3
+- Added label in doc with mod downloads
+
 # v1.1.2
 - See previous version, here update link on new image in description
 
